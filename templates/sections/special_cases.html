@@ -1,0 +1,23 @@
+
+{% extends 'sections/base.html'%}
+{% block content %}
+
+  <div class="model_info">
+
+ 
+    <div class="data_about" id="text-window">
+        <p>{{text|safe}}</p>
+    </div>
+    <div class="real_3d_model" id="real_3d_model">
+        <div class="sketchfab-embed-wrapper work_helicopter">
+            <iframe title="Helicopter" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                execution-while-out-of-viewport execution-while-not-rendered web-share
+                src="https://sketchfab.com/models/f1a7b90527e942b4b46cb3277baa4083/embed"> </iframe>
+        </div>
+    </div>
+  
+</div>
+
+
+{% endblock content %}

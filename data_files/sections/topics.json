@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "title":"Helicopter types",
+        "date":21,
+        "section":"special_cases",
+        "text":""
+    },
+    {
+        "id":2,
+        "title":"Helicopter types2",
+        "date":212,
+        "section":"special_cases2"
+    },
+    {
+        "id":3,
+        "title":"Helicopter types3",
+        "date":213,
+        "section":"special_cases3"
+    }
+]
