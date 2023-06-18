@@ -1,10 +1,8 @@
-from .views import get_data, aircraft, Home, page1
-from django.urls import path
+from .views import helicopter_cabin, page1
+from django.urls import path, include
 urlpatterns = [
-    path('', Home.as_view(), name="home"),
-    path('aircraft/',  aircraft, name="aircraft_info"),
-    path('special_cases/',  get_data, name="special_cases"),
-    path('page1/',  page1, name="page_1")  
+    path('helicopter_cabin/',  helicopter_cabin, name="helicopter_cabin"),
+    path('page1/',  page1, name="page_1"),
 ]
 
 

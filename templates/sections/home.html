@@ -4,8 +4,10 @@
 <div class="home">
   <div class="img_helicopter">
    
-      <img src="{% static 'img/img-back-home.png'%}" alt="">
+      <!-- <img src="{% static 'img/img-back-home.png'%}" alt=""> -->
+      <div id="container3D"></div>
   </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+<script type="module" src="{% static 'js/modelview.mjs' %}"></script>
 </div>
 {% endblock content %}
